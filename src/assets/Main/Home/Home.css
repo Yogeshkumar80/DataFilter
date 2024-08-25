@@ -1,0 +1,281 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.main-content {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: #ffffff;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+
+.management {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.management h3 {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+}
+
+.filter-input, .filter-select {
+  padding: 8px 12px;
+  font-size: 0.8rem;
+  margin-right:1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fafafa;
+  width: 150px;
+  transition: border-color 0.3s;
+}
+
+.filter-input:focus, .filter-select:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.filter-select {
+  appearance: none;
+  background: url('data:image/svg+xml;utf8,<svg fill="#999" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/></svg>') no-repeat right 10px center;
+  background-size: 16px 16px;
+}
+
+.filter-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.filter-row label {
+  font-weight: bold;
+  font-size: 14px;
+  margin-right: 5px;
+  color: #555;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+thead {
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+thead th {
+  padding: 10px;
+  text-align: left;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+thead th:hover {
+  background-color: #0056b3;
+}
+
+tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tbody td {
+  padding: 10px;
+  font-size: 14px;
+  color: #333;
+}
+
+tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.active-sort {
+  background-color: #0056b3;
+}
+
+.fa-sort-up, .fa-sort-down {
+  margin-left: 5px;
+  color: #ffffff;
+}
+
+
+.pagination-nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.pagination li {
+  margin: 0 5px;
+}
+
+.pagination li a {
+  color: #007bff;
+  padding: 8px 12px;
+  border-radius: 5px;
+  border: 1px solid #007bff;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.pagination li a:hover, .pagination li.active a {
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+.btn {
+  background-color: #28a745;
+  color: #ffffff;
+  padding: 10px 15px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #218838;
+}
+
+.fa-plus {
+  margin-left: 5px;
+  color: #ffffff;
+} 
+
+
+/* Edit button styling */
+.btn-edit {
+  background-color: #ffc107;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-edit:hover {
+  background-color: #e0a800;
+}
+
+.btn-save {
+  background-color: #28a745;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-save:hover {
+  background-color: #218838;
+}
+
+
+
+
+/* Input cell */
+.input-cell {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  width: 500px;
+  max-width: 90%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  z-index: 1001;
+}
+
+/* Modal Input */
+.modal-input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+/* Modal Buttons */
+.modal-content .btn-save {
+  background-color: #28a745;
+  color: #ffffff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-right: 10px;
+}
+
+.modal-content .btn-save:hover {
+  background-color: #218838;
+}
+
+.modal-content .btn-edit {
+  background-color: #ffc107;
+  color: #ffffff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.modal-content .btn-edit:hover {
+  background-color: #e0a800;
+}
+

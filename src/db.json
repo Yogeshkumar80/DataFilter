@@ -1,0 +1,165 @@
+{
+  "tasks": [
+    {
+      "order": 1,
+      "serialNo": "SN001",
+      "taskTitle": "Design Homepage",
+      "taskId": "T001",
+      "status": "In Progress",
+      "assignedMembers": [
+        "John Doe",
+        "Jane Smith"
+      ],
+      "dueDate": "2024-08-20",
+      "isAssigned": true,
+      "estimatedHours": 15,
+      "priority": "High",
+      "createdOn": "2024-08-10",
+      "action": "Review"
+    },
+    {
+      "order": 2,
+      "serialNo": "SN002",
+      "taskTitle": "Develop API",
+      "taskId": "T002",
+      "status": "Not Started",
+      "assignedMembers": [
+        "Alex Johnson"
+      ],
+      "dueDate": "2024-08-25",
+      "isAssigned": true,
+      "estimatedHours": 20,
+      "priority": "Medium",
+      "createdOn": "2024-08-11",
+      "action": "Start"
+    },
+    {
+      "order": 3,
+      "serialNo": "SN003",
+      "taskTitle": "Write Documentation",
+      "taskId": "T003",
+      "status": "Completed",
+      "assignedMembers": [
+        "Emily Davis"
+      ],
+      "dueDate": "2024-08-15",
+      "isAssigned": true,
+      "estimatedHours": 10,
+      "priority": "Low",
+      "createdOn": "2024-08-12",
+      "action": "Close"
+    },
+    {
+      "order": 4,
+      "serialNo": "SN004",
+      "taskTitle": "Fix Bugs",
+      "taskId": "T004",
+      "status": "In Progress",
+      "assignedMembers": [
+        "Michael Brown"
+      ],
+      "dueDate": "2024-08-18",
+      "isAssigned": true,
+      "estimatedHours": 12,
+      "priority": "High",
+      "createdOn": "2024-08-13",
+      "action": "Test"
+    },
+    {
+      "order": 5,
+      "serialNo": "SN005",
+      "taskTitle": "Create User Flow",
+      "taskId": "T005",
+      "status": "Not Started",
+      "assignedMembers": [
+        "Sarah Wilson"
+      ],
+      "dueDate": "2024-08-22",
+      "isAssigned": true,
+      "estimatedHours": 8,
+      "priority": "Medium",
+      "createdOn": "2024-08-14",
+      "action": "Plan"
+    },
+    {
+      "order": 6,
+      "serialNo": "SN006",
+      "taskTitle": "Optimize Performance",
+      "taskId": "T006",
+      "status": "Not Started",
+      "assignedMembers": [
+        "David Lee"
+      ],
+      "dueDate": "2024-08-30",
+      "isAssigned": true,
+      "estimatedHours": 18,
+      "priority": "High",
+      "createdOn": "2024-08-15",
+      "action": "Analyze"
+    },
+    {
+      "order": 7,
+      "serialNo": "SN007",
+      "taskTitle": "Set Up CI/CD",
+      "taskId": "T007",
+      "status": "In Progress",
+      "assignedMembers": [
+        "Laura Martinez"
+      ],
+      "dueDate": "2024-08-28",
+      "isAssigned": true,
+      "estimatedHours": 25,
+      "priority": "High",
+      "createdOn": "2024-08-16",
+      "action": "Deploy"
+    },
+    {
+      "order": 8,
+      "serialNo": "SN008",
+      "taskTitle": "Conduct User Testing",
+      "taskId": "T008",
+      "status": "Not Started",
+      "assignedMembers": [
+        "Brian King"
+      ],
+      "dueDate": "2024-09-05",
+      "isAssigned": true,
+      "estimatedHours": 22,
+      "priority": "Medium",
+      "createdOn": "2024-08-17",
+      "action": "Test"
+    },
+    {
+      "order": 9,
+      "serialNo": "SN009",
+      "taskTitle": "Integrate Third-Party Services",
+      "taskId": "T009",
+      "status": "In Progress",
+      "assignedMembers": [
+        "Nancy Scott"
+      ],
+      "dueDate": "2024-08-27",
+      "isAssigned": true,
+      "estimatedHours": 14,
+      "priority": "High",
+      "createdOn": "2024-08-18",
+      "action": "Implement"
+    },
+    {
+      "order": 10,
+      "serialNo": "SN010",
+      "taskTitle": "Perform Code Review",
+      "taskId": "T010",
+      "status": "Not Started",
+      "assignedMembers": [
+        "Paul Garcia"
+      ],
+      "dueDate": "2024-09-01",
+      "isAssigned": true,
+      "estimatedHours": 16,
+      "priority": "Medium",
+      "createdOn": "2024-08-19",
+      "action": "Review"
+    }
+  ]
+}
